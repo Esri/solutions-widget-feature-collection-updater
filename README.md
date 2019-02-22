@@ -1,37 +1,29 @@
-solutions-widget-utility-network-trace
+solutions-widget-feature-collection-updater
 
-A widget to perform tracing for the ArcGIS Utility Network Management Extension
-
-Read a step by step primer [here](https://esri.github.io/solutions-widget-utility-network-trace/)
-
+A widget to update a feature collection in any map that you have editable permissions with the current selections on the map.
 
 ## Features
 * An ArcGIS Web AppBuilder Widget
-* Configure a trace in the web without the need for ArcGIS Pro
-* Ability to combine a series a traces into a single workflor
-* Import trace ArcPy command into the configuration
+* Can determine which selection to save
+* Ability to choose a map in My Content or in a group
 
 ## Requirements
-1. A published ArcGIS Utility Network Management feature service
-2. A map service of the above to use in ArcGIS Web Appbuilder for visualization. (Web Scene does not support UN Feature Layers as of 8/30/18)
-3. Developed for ArcGIS Web AppBuilder, use 3D layout to deploy
+1. ArcGIS Web AppBuilder or ArcGIS Enterprise
+2. Permission to edit maps
 
-## Instructions
-1. Create a map with the UN map service.
-2. Download ArcGIS Web AppBuilder Dev Edition
-3. Download this widget and add it to `<location of WAB dev edition download>/client/stemapp3d/widgets`
-4. Register WAB dev ed to your organization
-5. Create and app, select the map you created.
-6. Add and configure the UNTrace widget.
+## Instructions for ArcGIS Web App Builder
+1. Clone this repo and copy the folder FeatureCollectionUpdater to <ArcGIS Web AppBuilder location>/WebAppBuilderForArcGIS\client\stemapp\widgets
+
+## Instructions for ArcGIS Enterprise
+1. Please follow instructions here [Add custom widgets](http://enterprise.arcgis.com/en/portal/latest/use/add-custom-widgets.htm)
 
 ## Usage
-1. Launch the configuration application
-2. Click the trace widget to open it in the panel
-3. Click the starting point icon (marker icon) and click an asset on the map
-4. Click on the trace button with your named traced to run the trace
-
-NOTE: The widget looks for the Utility Network Feature Service, not the map service.  map service is purely for visualization.
-Works on ES6 and greater supported browsers
+1. Launch the configured application
+2. Click the Feature Collection Updater widget to open it
+3. Draw a box around the features you want to select, press Next
+4. Choose the map the feature you wish to update, press Next
+5. Give your selection a name and a location to save, press OK
+6. The map's current feature collection will be updated with the new feature collection
 
 ## Issues
 
