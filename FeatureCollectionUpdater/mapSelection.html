@@ -1,0 +1,20 @@
+<div class="mapSelectionDiv" data-dojo-attach-point="mapSelectionDiv">
+  <div class="mapChooser" data-dojo-attach-point="mapChooser">
+    <table data-dojo-attach-point="mapChooserHeaderTable" width="100%">
+      <tr>
+        <td width="100%"><div class="mapChooserHeader">${nls.mapSelectionPanel.mapChooserHeader}</div></td>
+        <td width="50"><div class="mapChooserIcon" data-dojo-attach-point="mapPickerPopupIcon"></div></td>
+      </tr>
+    </table>
+    <table data-dojo-attach-point="mapChosenTable" width="100%">
+      <tr>
+        <td class="mapThumbnailHolder" data-dojo-attach-point="mapThumbnailHolder"></td>
+        <td class="mapDetailsHolder" data-dojo-attach-point="mapDetailsHolder"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="FCPickerHolder" data-dojo-attach-point="FCPickerHolder">
+    <div class="panelHeaders">${nls.mapSelectionPanel.selectFCtoUpdate}</div>
+    <table data-dojo-attach-point="featureCollectionChooserTable" cellpadding="2" cellspacing="10" width="100%"></table>
+  </div>
+</div>

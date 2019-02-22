@@ -1,0 +1,37 @@
+<div class="saveOptionDiv" data-dojo-attach-point="saveOptionDiv">
+  <div class="saveOptionHeader">${nls.saveOptionsPanel.headerMessage}</div>
+  <div class="saveChooser" data-dojo-attach-point="saveChooser">
+    <div class="saveMyContentHolder" data-dojo-attach-point="saveMyContentHolder">
+        <div data-dojo-attach-point="saveMyContent" data-dojo-type="jimu/dijit/CheckBox"></div>
+        <label class="checkLabel" for="saveMyContent" title="${nls.saveOptionsPanel.saveToOrg}">${nls.saveOptionsPanel.saveToOrg}</label>
+    </div>
+    <div class="saveChooserOptions" data-dojo-attach-point="saveChooserOptions">
+      	<fieldset class="saveOptionFieldSet">
+            <legend class="saveHeaderLegend">
+                ${nls.saveOptionsPanel.saveLegend}
+              </legend>
+            <div data-dojo-attach-point="saveChooserTextHolder">
+              <div class="saveChooserText" data-dojo-attach-point="saveChooserText"></div>
+            </div>
+        </fieldset>
+
+      	<fieldset class="saveOptionFieldSet">
+            <legend class="saveHeaderLegend">
+                ${nls.saveOptionsPanel.shareLegend}
+            </legend>
+            <div class="publicOption" data-dojo-attach-point="publicOption" wodth="100%">
+                <label class="input-label" for="makePublic" title="${nls.saveOptionsPanel.shareFCWith}">${nls.saveOptionsPanel.shareFCWith}</label>
+                <div data-dojo-attach-point="makePublic" data-dojo-type="jimu/dijit/CheckBox" data-dojo-props='checked:true'></div>
+            </div>
+        </fieldset>
+
+        <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+    </div>
+  </div>
+  <!--
+  <div class="popupOption" data-dojo-attach-point="popupOption">
+    <div data-dojo-attach-point="enablePopup" data-dojo-type="jimu/dijit/CheckBox" data-dojo-props='checked:false'></div>
+    <label class="checkLabel" for="enablePopup" title="${nls.saveOptionsPanel.enableFeaturePopup}">${nls.saveOptionsPanel.enableFeaturePopup}</label>
+  </div>
+  -->
+</div>

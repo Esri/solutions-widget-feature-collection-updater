@@ -1,0 +1,56 @@
+define({
+  root: ({
+    _widgetLabel: "Feature Collection Updater",
+    selectionPanel: {
+      selectionResultHeader: "Choose which selection to save."
+    },
+    mapSelectionPanel: {
+      mapChooserHeader: "Choose a map to save this selection",
+      noMapSelected: "Please select a map",
+      noFeatureCollectionInMap: "Sorry, this map does not contain any Feature Collections",
+      selectFCtoUpdate: "Select the Feature Collection(s) you wish to update",
+      selectAllFC: "Select All"
+    },
+    saveOptionsPanel: {
+      saveLegend: "Title and Location",
+      shareLegend: "Share",
+      titleError: "This value is required",
+      saveToOrg: "Save a new layer to My Content",
+      saveInMap: "In the Map",
+      titleLabel: "Title",
+      shareFCWith: "Public",
+      enableFeaturePopup: "Enable popup",
+      headerMessage: "Specify a title and location to save this feature collection",
+      notValidForm: "Sorry, form is not valid",
+      successFullUpdate: "The feature collection in the map has been updated.",
+      failedUpdate: "Sorry, the feature collection could not be updated."
+    },
+  }),
+  "ar": 0,
+  "cs": 0,
+  "da": 0,
+  "de": 0,
+  "el": 0,
+  "es": 0,
+  "et": 0,
+  "fi": 0,
+  "fr": 0,
+  "he": 0,
+  "it": 0,
+  "ja": 0,
+  "ko": 0,
+  "lt": 0,
+  "lv": 0,
+  "nb": 0,
+  "nl": 0,
+  "pl": 0,
+  "pt-br": 0,
+  "pt-pt": 0,
+  "ro": 0,
+  "ru": 0,
+  "sv": 0,
+  "th": 0,
+  "tr": 0,
+  "vi": 0,
+  "zh-cn": 1
+});

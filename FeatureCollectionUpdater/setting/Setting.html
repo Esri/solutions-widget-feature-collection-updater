@@ -1,0 +1,46 @@
+<div>
+    <fieldset class="settingFieldSet">
+        <legend class="settingHeaderLegend">
+            ${nls.layerSet.legendHeader}
+        </legend>
+        <div class="LayerListChooserHeader">${nls.layerSet.chooserHeader}</div>
+        <div class="LayerListChooser" data-dojo-attach-point="LayerListChooser" width="100%" height="300" >
+            <table data-dojo-attach-point="LayerListChooserTable" cellspaning="5" cellpadding="5"></table>
+        </div>
+    </fieldset>
+
+    <fieldset class="settingFieldSet">
+        <legend class="settingHeaderLegend">
+          ${nls.mapSet.legendHeader}
+        </legend>
+        <div class="selectedMapChooser" data-dojo-attach-point="selectedMapChooser">
+          <div class="selectedMapChooserHeader">
+            <table>
+                <tr>
+                  <td class="mapThumbnailHolder">${nls.mapSet.chooserHeader}</td>
+                  <td><div class="mapChooserIcon" data-dojo-attach-point="mapChooserIcon"></div></td>
+                </tr>
+              </table>
+          </div>
+          <div class="mapChosenTableHolder">
+            <table data-dojo-attach-point="mapChosenTable" cellspaning="5" cellpadding="5">
+                <tr>
+                  <td class="mapThumbnailHolder" data-dojo-attach-point="mapThumbnailHolder"></td>
+                  <td class="mapDetailsHolder" data-dojo-attach-point="mapDetailsHolder"></td>
+                </tr>
+            </table>
+          </div>
+          <div class="selectedMapChooserRuntime" data-dojo-attach-point="selectedMapChooserRuntime"></div>
+        </div>
+    </fieldset>
+
+    <fieldset class="settingFieldSet" data-dojo-attach-point="saveOptionFieldset">
+        <legend class="settingHeaderLegend">
+          ${nls.saveSet.legendHeader}
+        </legend>
+        <div class="saveOrgChooser" data-dojo-attach-point="saveOrgChooser" width="100%">
+          <div class="saveOrgChooserRuntime" data-dojo-attach-point="saveOrgChooserRuntime"></div>
+        </div>
+    </fieldset>
+
+</div>

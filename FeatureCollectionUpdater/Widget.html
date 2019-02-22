@@ -1,0 +1,36 @@
+<div class="widgetContainer">
+  <!-- Selection and selection filtering panel -->
+  <div class="selectionPanel" data-dojo-attach-point="selectionPanel">
+    <div  data-dojo-attach-point="selectionTools"></div>
+    <div class="selectionResultChooser" data-dojo-attach-point="selectionResultChooser">
+      <div class="selectionResultChooserHeader">${nls.selectionPanel.selectionResultHeader}</div>
+      <div class="selectionResultChooserResults">
+        <table data-dojo-attach-point="featureChooserTable" cellpadding="2" cellspacing="10"></table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Map selection Panel -->
+  <div  data-dojo-attach-point="mapSelectorPanel">
+    <div  data-dojo-attach-point="mapSelectorHolder"></div>
+  </div>
+
+  <!-- Save options Panel -->
+  <div  data-dojo-attach-point="saveOptionsPanel">
+    <div data-dojo-attach-point="saveOptionsHolder"></div>
+  </div>
+
+  <!-- Button Navigation Panel -->
+  <div class="buttonNavPanel" data-dojo-attach-point="buttonNavPanel">
+    <div class="backButtonHolder" data-dojo-attach-point="backButtonHolder">
+      <div class="jimu-btn" data-dojo-attach-point="btnBack" data-dojo-attach-event="click:backButtonPress">Back</div>
+    </div>
+    <div class="okButtonHolder" data-dojo-attach-point="okButtonHolder">
+      <div class="jimu-btn" data-dojo-attach-point="btnNext" data-dojo-attach-event="click:nextButtonPress">Next</div>
+    </div>
+    <div class="updateButtonHolder" data-dojo-attach-point="updateButtonHolder">
+        <div class="jimu-btn" data-dojo-attach-point="btnUpdate" data-dojo-attach-event="click:processUpdate">Update</div>
+      </div>
+  </div>
+
+</div>

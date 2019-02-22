@@ -1,0 +1,55 @@
+.jimu-widget-demo-setting input{
+  margin-left: 10px;
+}
+
+.LayerListChooserHeader {
+  font-size: 12pt;
+  padding-bottom: 10px;
+}
+
+.settingFieldSet {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #D2DAE2;
+}
+
+.settingHeaderLegend {
+  font-size: 12pt;
+}
+
+.selectedMapChooserHeader {
+  padding-bottom: 10px;
+}
+
+.mapChooserIcon{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/search_hover.png");
+  background-repeat: no-repeat;
+}
+
+.mapChosenTableHolder {
+  padding-bottom: 10px;
+}
+
+.input-label {
+  display:inline-block;
+  width: 20%;
+}
+
+.input-item {
+  display:inline-block;
+  width: 70%;
+}
+
+.inline {
+  display:inline-block;
+}
+
+.LayerListChooser {
+  overflow-y: auto;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #D2DAE2;
+}
